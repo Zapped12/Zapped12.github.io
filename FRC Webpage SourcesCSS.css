@@ -349,7 +349,8 @@ a.btn7 {
 
 .CenterBoxText {
     font-size: clamp(10px, 2vh, 22px);
-    color: aqua;
+    color: black;
     display: inline;
       font-family: "Poppins", "Roboto", sans-serif;
+
 }
