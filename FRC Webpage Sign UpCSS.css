@@ -5,6 +5,23 @@ body {
     padding: 0;
 }
 
+img,video,canvas,svg{max-width:100%;height:auto;display:block}
+iframe{width:100%;aspect-ratio:16/9;border:0}
+
+@media (max-width:900px){
+  html,body{overflow-x:hidden}
+  .verytopbar{height:56px}
+  .secondtopbar{margin-top:56px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;padding:8px 12px;height:auto}
+  .secondtopbarlogo{width:72px;min-width:72px}
+  .btn,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btnHOME{font-size:16px;width:auto;height:40px;line-height:40px;margin-left:0;padding:0 12px;white-space:nowrap}
+  .container,.content{width:100%;margin:0 auto;padding:0 12px;box-sizing:border-box}
+  .Box1,.Box2,.Box3,.Box4,.Box1B,.Box1C{float:none;width:100%;margin:16px 0 0 0;height:auto}
+  .Box1Title,.Box3title,.Box3title2,.Box4title{font-size:24px;padding-top:12px;margin-left:5%;margin-right:5%}
+  .Box1Text,.Box1AText,.Box3text,.Box4text{font-size:16px;max-width:90%;margin-left:auto;margin-right:auto;text-align:left}
+  .PhotoBox,.PhotoBox2,.PhotoBox3{width:100%;max-width:640px;margin:16px auto;height:auto;aspect-ratio:16/9;float:none}
+  .bottombar{font-size:16px}
+}
+
 
 .verytopbar {
     height: 5vh;
