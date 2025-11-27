@@ -1,0 +1,28 @@
+html{overflow-x:hidden}
+img,video,canvas,svg{max-width:100%;height:auto;display:block}
+iframe{width:100%;aspect-ratio:16/9;border:0}
+:where(p,h1,h2,h3,h4,td,th){overflow-wrap:anywhere}
+
+@media (max-width:1200px){
+  .secondtopbar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;height:auto;padding:8px 12px}
+  .secondtopbarlogo{width:84px;min-width:84px}
+  .btn,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btnHOME{font-size:clamp(14px,2vw,16px);width:auto;height:44px;line-height:44px;padding:0 12px;margin-left:0;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap}
+  .container,.content{width:100%;max-width:100%;margin:0 auto;padding:0 12px;box-sizing:border-box}
+  .Box1,.Box2,.Box3,.Box4,.Box1B,.Box1C{height:auto}
+}
+
+@media (max-width:900px){
+  .verytopbar{height:52px}
+  .verytopbartext{font-size:16px;margin-top:8px}
+  .page-padding{height:16px}
+  .Box1,.Box2,.Box3,.Box4,.Box1B,.Box1C{float:none;width:100%;margin:16px 0 0 0}
+  .PhotoBox,.PhotoBox2,.PhotoBox3{width:100%;max-width:640px;margin:16px auto;height:auto}
+  .Box1Title,.Box3title,.Box3title2,.Box4title{font-size:clamp(18px,6vw,32px);padding-top:12px;margin-left:5%;margin-right:5%}
+  .Box1Text,.Box1AText,.Box3text,.Box4text{font-size:clamp(14px,3.7vw,16px);max-width:90%;margin-left:auto;margin-right:auto;text-align:left}
+  .bottombar{font-size:110%}
+}
+
+@media (max-width:560px){
+  .btn,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btnHOME{height:40px;line-height:40px;font-size:clamp(13px,3.8vw,15px);padding:0 10px}
+  .secondtopbarlogo{width:72px;min-width:72px}
+}
