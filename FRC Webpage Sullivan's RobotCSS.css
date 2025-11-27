@@ -1,0 +1,417 @@
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0;
+}
+
+
+.verytopbar {
+    height: 2.8125vw;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    top: 0;
+    position: fixed;
+    color: white;
+    z-index: 100; 
+}
+
+
+
+.verytopbartext {
+    font-size: 1.3vw;
+    text-align: left;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+
+
+.secondtopbar {
+    margin-top: 2.8125vw;
+    height: 5.625vw;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    
+    border: 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-style: solid;
+    position: fixed;
+    display: flex;
+    z-index: 100; 
+
+}
+
+.secondtopbarlogo {
+    height: 100%;
+    width: 10%;
+    float: left;
+    background-color: white;
+    background-image: url("https://www.firstinspires.org/hs-fs/hubfs/web/brand/brand-logos-cards/first-logo-vertical_1280x850.webp?width=960&height=637&name=first-logo-vertical_1280x850.webp");
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.secondtopbarbuttons {
+    width: 85%;
+    height: 100%;
+    float: left;
+    margin-left: 15%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 1%;
+    margin-left: 8%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.3s ease;
+   }
+
+   .btn2 {
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 1%;
+    margin-left: 5%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+
+   .btn3 {
+    width: 9.5em;
+    height: 2.3em;
+    margin-top: 1%;
+    margin-left: 5%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .btn4 {
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 1%;
+    margin-left: 5%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+
+   .btn5 {
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 1%;
+    margin-left: 5%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+
+   .btn6 {
+    width: 6.5em;
+    height: 2.3em;
+    margin-top: 1%;
+    margin-left: 5%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 1.1vw;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+
+    a.btn:hover,
+    a.btn2:hover,
+    a.btn3:hover,
+    a.btn4:hover,
+    a.btn5:hover,
+    a.btn6:hover {
+    color: black;
+    transform: scale(1.1);
+  }
+   
+    a.btn::after,  
+    a.btn2::after,
+    a.btn3::after,
+    a.btn4::after,
+    a.btn5::after,
+    a.btn6::after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+  }
+   
+
+a.btn7 {
+  width: 6.5em;
+  height: 2.3em;
+  margin-top: 1%;
+  margin-left: 5%;
+  background: white; 
+  color: black;       
+  border: none;
+  border-radius: 0.325em;
+  font-size: 1.1vw;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+    display: block;
+  margin: 0 auto;
+}
+
+
+a.btn7:hover {
+  color: rgb(255, 255, 255); 
+  transform: scale(1.1);
+}
+
+
+a.btn7::after {
+  content: "";
+  background: rgb(48, 45, 45); 
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+
+a.btn7:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+  transition: all 0.5s;
+}
+
+    a.btn:hover::after,
+    a.btn2:hover::after,
+    a.btn3:hover::after,
+    a.btn4:hover::after,
+    a.btn5:hover::after,
+    a.btn6:hover::after {
+      transform: skewX(-45deg) scale(1, 1);
+      transition: all 0.5s;
+    }
+
+
+
+
+   .Box1 {
+    height: 45.0vw;
+    width: 40%;
+    border: 1px;
+    border: solid;
+    float: left;
+    margin-top: 8.4375vw;
+    position: relative;
+    z-index: 2;
+   }
+
+
+    .Box1Title {
+    padding-top: 2.25vw;
+    font-size: 2.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; 
+    color: #1f1f1f;
+    text-align: center; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    color: #111;
+    padding-top: 8.4375vw;
+    }
+
+    .Box1Text {
+    margin-top: 1.125vw;
+    font-size: 0.97vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #444; 
+    line-height: 1.6;  
+    text-align: center; 
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+   .Box2 {
+    height: 22.5vw;
+    width: 64.52%;
+    border: 1px;
+    border: solid;
+    border-left: none;
+    background-color: rgb(240, 240, 240);
+    float: right;
+    background-image: url("https://stem4kids.org/wp-content/uploads/event-experience.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin-top: 8.4375vw;
+    position: relative;
+    margin-left: -5%;
+    z-index: 1;
+   }
+
+   .Box3 {
+    height: 22.5vw;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    clear: both;
+    padding-left: 15%;
+    padding-top: 0.0011vw;
+   }
+
+   .bottombar {
+    height: 2.8125vw;
+    background-color: black;
+    width: 100%;
+    font-size: 200%;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+   }
+
+
+   .Box3title {
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+    color: #1f1f1f;
+  margin-top: 2.8125vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.Box3text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 60%;
+  margin: 1.125vw;
+  margin-left: 2.8125vw;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+a.btn, a.btn2, a.btn3, a.btn4, a.btn5, a.btn6 {
+  display: inline-block;
+  text-decoration: none;  
+  text-align: center; 
+  line-height: 2.3em;    
+  color: white;   
+  transition: all 0.3s ease; 
+}
+
+a.btn7 {
+  display: inline-block;
+  text-decoration: none;  
+  text-align: center; 
+  line-height: 2.3em;    
+  color: rgb(0, 0, 0);   
+  transition: all 0.3s ease; 
+}
+
+.btnHOME {
+    margin-top: 0.2812vw;
+    margin-left: 5.0vw;
+    font-size: 1.5vw;
+    color: white;
+    background: black;
+    padding: 0.45vw 1vw;
+    border-radius: 0.5625vw;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    width: 2.5vw;
+    height: 3.0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnHOME:hover {
+    background: white; 
+    color: black;  
+    transform: scale(1.1);
+}
+
+.PhotoBox {
+    font-size: 10px;
+    height: 33.75vw;
+    width: 61.3125vw;
+    border-style: solid;
+    float: right;
+    margin-top: 14.0625vw;
+    margin-right: 2.8125vw;
+    background-image: url("https://www.beastrobotics.com/wp-content/uploads/2025/09/PXL_20250322_203654727-scaled.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position:relative;
+    z-index: 1;
+}
+.container::after{content:"";display:block;clear:both}
+.content::after{content:"";display:block;clear:both}
